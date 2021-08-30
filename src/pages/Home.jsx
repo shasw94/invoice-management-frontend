@@ -30,13 +30,13 @@ const Home = () => {
                 break;
             case "UPLOADING":
                 setTitleText({
-                    text: "File is being uploaded to the server",
+                    text: "File is being uploaded to the server.",
                     color: "cyan",
                 });
                 break;
             case "UPLOADED":
                 setTitleText({
-                    text: "File has been Uploaded Successfully",
+                    text: "File has been Uploaded Successfully. Orders once verified will be listed below asynchronously: ",
                     color: "green",
                 });
                 break;

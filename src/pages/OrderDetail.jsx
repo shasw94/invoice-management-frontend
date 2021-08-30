@@ -68,11 +68,11 @@ const OrderDetail = (props) => {
                     {
                         orderProd.map((prod, ind) => (
                             <div className="d-flex">
-                                <MemberComponent title="Product" value={prod.product.name} />
-                                <MemberComponent title="Brand" value={prod.product.brand.name} />
-                                <MemberComponent title="Location" value={prod.location} />
-                                <MemberComponent title="Quantity" value={prod.quantity} />
-                                <MemberComponent title="Rate" value={prod.product.rate} />
+                                <MemberComponent title="Product" value={prod?.product?.name} />
+                                <MemberComponent title="Brand" value={prod?.product?.brand?.name} />
+                                <MemberComponent title="Location" value={prod?.location} />
+                                <MemberComponent title="Quantity" value={prod?.quantity} />
+                                <MemberComponent title="Rate" value={prod?.product?.rate} />
                                 <MemberComponent title="Gross Amount" value={prod.totalAmountPaid} />
                             </div>
                         ))
